@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+</style>
+    <title>Mi CV - Landing Page</title>
+    <link rel="stylesheet" href="./Style.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="nav">
+            <details class="accordion-nav">
+                <summary class="nav-link">Menú</summary>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#inicio" class="nav-link">Inicio</a></li>
+                    <li class="nav-item"><a href="#linktree" class="nav-link">Mis Redes</a></li>
+                    <li class="nav-item"><a href="#contacto" class="nav-link">Contacto</a></li>
+                </ul>
+            </details>
+        </nav>
+    </header>
+
+    <section id="inicio" class="section profile-section">
+        <div class="profile-container">
+            <img src="./majo.jpeg" alt="Tu Foto de Perfil" class="profile-photo">
+            <h1 class="profile-name">Maria Jose Puello Medina</h1>
+            <p class="profile-summary">
+               Soy María José Puello Medina, estudiante del grado 11°01 en la modalidad de análisis químico. Soy una chica apasionada por la ciencia, los experimentos y busco aprender más sobre el mundo natural. Además, disfruto de la lectura, las películas y el arte como las manualidades.
+            </p>
+            <div class="contact-info">
+                <p><strong>Correo:</strong><a href="mailto:majopuello30@gmail.com">majopuello30@gmail.com</a></p>
+                <p><strong>Teléfono:</strong><a href="http://wa.me/+573204693520" target="_blank" rel="noopener noreferrer">+57 3204693520</a></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2 class="section-title">Estudios y Experiencia</h2>
+        <div class="section-content">
+            <h3>Estudios Realizados</h3>
+            <ul class="list">
+                <li>
+                    <h4>Bachillerato-estudio de secundaria|CASD Jose Prudencio Padilla</h4>
+                    <p>estudios de secundaria | Año de Finalización: 2025</p>
+                    <P>Descripción:Formación con enfoque en, Análisis Químico, donde se trabaja los diferentes experimentos donde su objetivo es observan los cambios  importantes que suceden, además se tratan temas como la preservación de la naturaleza y la teoría.</P>
+                </li>
+                <li>
+                    <h4>Tecnico en Analisis De Muestras Quimicas | SENA</h4>
+                    <p>Tecnico en Analisis De Muestras Quimicas| Año de Finalización: 2025</p>
+                    <p>Descripción:Formación técnica enfocada en hacer experimentos con todos los elementos de protección personal (EPP), hacer procesos de obtención, análisis de muestras, etc.</p>
+                </li>
+            </ul>
+
+            <h3>Experiencia Laboral</h3>
+            <ul class="list">
+                <li>
+                    <h4>Prácticas de laboratorio | SENA</h4>
+                    <p>Inicio: Enero 2024 -finalizacion: diciembre 2025 <br>Descripción:prácticas en procesos de obtención de alimentos, análisis de muestras químicas, correcta manipulación de los instrumentos de laboratorio.</p>
+                </li>
+                <li>
+                    <h4>Proyectos académicos | Colegio José Prudencio Padilla CASD</h4>
+                    <p>Enero 2020-finalizacion: diciembre de 2025 <br>Descripción:   Desarrollo de prácticas experimentales  químicas, y para evidenciar el proceso que se llevó a cabo realizar informes de laboratorio.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="section skills-section">
+        <h2 class="section-title">Habilidades</h2>
+        <div class="skills-container">
+            <div class="skill-group">
+                <h3>Habilidades Técnicas</h3>
+                <ul class="list-inline">
+                    <li>Entender y aplicar conceptos de química en el colegio (mezclas, soluciones, fórmulas).</li>
+                    <li>Hacer resúmenes, mapas conceptuales y esquemas visuales para organizar información.</li>
+                    <li>Manejar programas como Canva, Word, PowerPoint y Excel para trabajos académicos.</li>
+                    <li>Buscar y seleccionar información en internet de manera efectiva.</li>
+                    <li>Aplicar normas básicas de laboratorio escolar (uso de reactivos, manejo de materiales)</li>
+                </ul>
+            </div>
+            <div class="skill-group">
+                <h3>Habilidades Blandas</h3>
+                <ul class="list-inline">
+                    <li>Trabajo en equipo: me adapto mejor cuando hay una buena distribución de responsabilidades.</li>
+                    <li>Organización: tengo facilidad para estructurar tareas y presentar la información de forma clara.</li>
+                    <li>Empatía: me preocupo por los demás y me importa contribuir a la sociedad</li>
+                    <li>Responsabilidad: me tomo en serio mis compromisos académicos y personales.</li>
+                    <li>Perseverancia: aunque me distraigo a veces, busco retomar el enfoque para cumplir mis metas.</li>
+                    <li>Comunicación: logro expresar mis ideas con claridad cuando entiendo  bien el tema</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="linktree" class="section linktree-section">
+        <h2 class="section-title">Mis Redes y Proyectos</h2>
+        <div class="linktree-container">
+            <img src="./majo.jpeg" alt="Tu Foto de Perfil" class="profile-photo">
+            <a href="https://www.instagram.com/_marijoox?igsh=OGFnZTF0M3NvcDVl" target="_blank" class="linktree-link"><strong>Instagram</strong></a>
+    </section>
+
+    <section id="contacto" class="section contact-section">
+        <h2 class="section-title">Contáctame</h2>
+        <form action="https://formspree.io/f/tu-email-de-formspree" method="POST" class="contact-form">
+            <input type="text" name="nombre" placeholder="Tu Nombre" required>
+            <input type="email" name="_replyto" placeholder="Tu Correo Electrónico" required>
+            <textarea name="mensaje" placeholder="Tu Mensaje" rows="5" required></textarea>
+            <button type="submit" class="submit-button">Enviar Mensaje</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 Maria Jose Puello Medina <br> Todos los derechos reservados.</p>
+        <p>Desde el ❤️ del CASD para todo el mundo</p>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
