@@ -1,7 +1,7 @@
 /* Creación de variables a  utilizar */
 :root {
-    --primary-color: #1d573e;
-    --secondary-color: #374432;
+    --primary-color: #FFC0CB;
+    --secondary-color: #f5007b;
     --text-color: #333333;;
     --background-color: #f4f4f4;
     --light-gray: #ecf0f1;
@@ -152,7 +152,7 @@ body {
 /*Sección para cambiar colores de fondo, tamaño de letra y alineación del texto o contenedores
 del area de Estudios realizados y experiencia laboral*/
 .list li {
-    background-color: rgb(210, 238, 205);
+    background-color:#ff9ecf;
     border-left: 5px solid var(--primary-color);
     padding: 1rem;
     margin-bottom: 1rem;
@@ -189,7 +189,7 @@ del area de Estudios realizados y experiencia laboral*/
 
 /*Sección para cambiar el color a la letra o fondo de cada link en el Linktree */
 .linktree-link {
-    background-color: rgb(220, 200, 150);
+    background-color:#ffbdde;
     color: rgb(250, 250, 250);
     text-decoration: none;
     padding: 1rem 2rem;
